@@ -8,8 +8,12 @@
 Teams:
 
 Login github
+git config --global core.autocrlf false
 Fork https://github.com/machine/machine.specifications
 git clone https://[YOUR ACCOUNT]@github.com/[YOUR ACCOUNT]/machine.specifications.git
+cd machine.specifications
+
+
 git checkout -b "refactoring_dojo"
   (Don't work on master)
 build-debug.cmd
